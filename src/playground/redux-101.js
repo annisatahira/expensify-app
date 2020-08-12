@@ -10,6 +10,8 @@ import { createStore } from 'redux'
 
 // console.log(add({ a: 1, b: 12 }, 100))
 
+//add function for action
+
 const incrementCount = ({ incrementBy = 1 } = {}) => ({
   type: 'INCREMENT',
   incrementBy,
